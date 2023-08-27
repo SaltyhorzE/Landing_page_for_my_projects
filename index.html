@@ -1,44 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Landing Page</title>
-<link href="style.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a9b06f62c1.js" crossorigin="anonymous"></script>
 
 </head>
+
 <body>
-  <h1> MY PROJECTS -> </h1>
-<div class="all">
-  <div class="buttons-container">
-    <div class="button-wrapper">
-      <button class="button" onclick="openProject('index1.html')">Project 1</button>
-      <div class="project-label">Remove Duplicates</div>
+  <div class="all">
+    <div id="intro">
+      <h3><i class="fa-solid fa-user fa-flip"></i> Name:Prakash V S</h3>
+      <h3><i class="fa-solid fa-user-graduate fa-flip"></i> Cource: MCA Computer Applications</h3>
+      <h3><i class="fa-solid fa-mobile-screen-button fa-flip"></i> Contact No.: 9884479924</h3>
+      <p>
+        <i class="fa-brands fa-github fa-flip"></i></i> GitHub:
+        <a id="git" href="https://github.com/SaltyhorzE">https://github.com/SaltyhorzE</a>
+      </p>
+      <p>
+        <i class="fa-solid fa-clone fa-flip"></i> Portfolio:
+        <a id="git" href="https://linktr.ee/prakash.vs">https://linktr.ee/prakash.vs</a>
+      </p></div>
+
+
+      <div class="buttons-container">
+        <h2>My Projects -> </h2>
+        <div class="button-wrapper">
+          <button class="button" onclick="openProject('index1.html')">Project 1</button>
+          <div class="project-label">Remove Duplicates</div>
+        </div>
+        <div class="button-wrapper">
+          <button class="button" onclick="openProject('index2.html')">project2</button>
+          <div class="project-label">Sum of Positive No</div>
+        </div>
+        <div class="button-wrapper">
+          <button class="button" onclick="openProject('index3.html')">project3</button>
+          <div class="project-label">Print First Letters</div>
+        </div>
+        <div class="button-wrapper">
+          <button class="button" onclick="openProject('index4.html')">project4</button>
+          <div class="project-label">Color Swapper</div>
+        </div>
+      </div>
     </div>
-    <div class="button-wrapper">
-      <button class="button" onclick="openProject('index2.html')">project2</button>
-      <div class="project-label">Sum of Positive No</div>
-    </div>
-    <div class="button-wrapper">
-      <button class="button" onclick="openProject('index3.html')">project3</button>
-      <div class="project-label">Print First Letters</div>
-    </div>
-    <div class="button-wrapper">
-      <button class="button" onclick="openProject('index4.html')">project4</button>
-      <div class="project-label">Color Swapper</div>
-    </div>
+    <div class="bg"></div>
+
   </div>
-</div>
-<div class="bg"></div>
 
-</div>
+  <script>
+    function openProject(projectURL) {
+      window.open(projectURL, '_blank');
+    }
 
-<script>
-  function openProject(projectURL) {
-    window.open(projectURL, '_blank');
-  }
-  
- 
-</script>
+
+  </script>
 </body>
+
 </html>
