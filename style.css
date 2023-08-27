@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     display: flex;
-
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -106,5 +105,27 @@ h1 {
   100% {
     transform:translateX(25%);
   }
+}
+/*--------------------------*/
+#git{
+  text-decoration: none; /* Remove underline */
+    color: #333; /* Change color to a darker shade */
+    cursor:pointer;
+    
+}
+
+#intro{
+
+  width: 450px;
+  height: auto;
+  position: absolute; 
+  top: 15px; 
+  left: 20px; 
+  padding: 10px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+  
+  
+  
 }
 
